@@ -1,0 +1,18 @@
+
+	/* TreeDesign.css */
+	
+	BODY { font-family:verdana; font-size:70%; }
+	H1 { font-size:120%; font-style:italic; }
+
+	UL { margin-left:0px; margin-bottom:5px; }
+	LI UL { display:none; margin-left:16px; }
+	LI { font-weight:bold; list-style-type:square; cursor:default; text-indent:10px;}
+	LI.clsHasKids { list-style-type:none;  }
+	LI.clsHasKids SPAN { text-Indent:10pt ; cursor:hand; font-weight:bold; font-family:verdana; font-size:110%; list-style-image:URL(images/FClosed.gif) }
+
+	A:link, A:visited, A:active { font-weight:normal; color:navy; }
+	A:hover { text-decoration:none; }
+
+	BUTTON { font-family:tahoma; font-size:100%; }
+	.clsTitle {background-color:steelblue;color:white;}
+	.clsButton {background-color:steelblue;color:white;}
